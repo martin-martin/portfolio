@@ -30,3 +30,14 @@ body {
   color: gray;
   background-position: center;
 }
+
+footer {
+  font-size: 0.6em;
+  color: #303030
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+  padding: 8px;
+}
