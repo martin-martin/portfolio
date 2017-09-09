@@ -2,32 +2,35 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles/style.css') }}">
     <title>{{title}}</title>
 </head>
 <body>
   <h1>{{title}}</h1>
   <h2>Check out these cool projects!</h2>
-  {% for project in projects %}
-  <div class="project">
-    <h3>{{project.name}}</h3>
-    {% if project.live_link %}
-      <a href={{project.live_link}} target="_blank"><img src={{project.image}} alt="shows a screenshot of the project"></a>
-    {% else %}
-      <img src={{project.image}} alt="shows a screenshot of the project">
-    {% endif %}
-    <p>{{project.description}}</p>
-    <div class="project-links">
+  <div class="portfolio">
+    {% for project in projects %}
+    <div class="project">
+      <h3>{{project.name}}</h3>
       {% if project.live_link %}
-        <a href={{project.live_link}} target="_blank">see it live</a>
+        <a href={{project.live_link}} target="_blank"><img src={{project.image}} alt="shows a screenshot of the project"></a>
+      {% else %}
+        <img src={{project.image}} alt="shows a screenshot of the project">
       {% endif %}
-      {% if project.code_link %}
-        <a href={{project.code_link}} target="_blank">see the code</a>
-      {% endif %}
-      {% if project.info_link %}
-        <a href={{project.info_link}} target="_blank">read more</a>
-      {% endif %}
+      <p>{{project.description}}</p>
+      <div class="project-links">
+        {% if project.live_link %}
+          <a href={{project.live_link}} target="_blank">see it live</a>
+        {% endif %}
+        {% if project.code_link %}
+          <a href={{project.code_link}} target="_blank">see the code</a>
+        {% endif %}
+        {% if project.info_link %}
+          <a href={{project.info_link}} target="_blank">read more</a>
+        {% endif %}
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </body>
 </html>
