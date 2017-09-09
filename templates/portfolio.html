@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles/style.css') }}">
-    <title>{{title}}</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
   <h1>{{title}}</h1>
   <h2>Check out these cool projects!</h2>
   <div class="portfolio">
@@ -40,5 +34,4 @@
     </div>
     {% endfor %}
   </div>
-</body>
-</html>
+{% endblock %}
