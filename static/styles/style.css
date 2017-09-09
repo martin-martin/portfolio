@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-color: #fdfdfd;
+  color: #303030;
 }
 
 .portfolio {
@@ -11,7 +13,7 @@ body {
 .project {
   margin: 20px;
   padding: 20px;
-  background-color: #ccc
+  background-color: #ccc;
 }
 
 .project-links {
@@ -33,7 +35,7 @@ body {
 
 footer {
   font-size: 0.6em;
-  color: #303030
+  color: #303030;
 }
 
 .icon {
