@@ -12,7 +12,7 @@
     {% for project in projects %}
     <div class="project">
       <h3>{{project.name}}</h3>
-      {% if project.live_link %}
+      {% if project.live_link and project.image %}
         <a href={{project.live_link}} target="_blank"><img src={{project.image}} alt="shows a screenshot of the project"></a>
       {% else %}
         <img src={{project.image}} alt="shows a screenshot of the project">
