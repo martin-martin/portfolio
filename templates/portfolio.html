@@ -9,13 +9,21 @@
   <h1>{{title}}</h1>
   <h2>Check out these cool projects!</h2>
   <div class="portfolio">
+    <!-- render each project including name, screenshot, description,
+        and available links (live project, code, and related blog post) -->
     {% for project in projects %}
     <div class="project">
       <h3>{{project.name}}</h3>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
       {% if project.live_link and project.image %}
-        <a href={{project.live_link}} target="_blank"><img src={{project.image}} alt="shows a screenshot of the project"></a>
+        <a href={{project.live_link}} target="_blank">
+          <div class="img-container" style="background-image: url('{{project.image}}')"></div>
+        </a>
+      {% elif project.image %}
+        <div class="img-container" style="background-image: url('{{project.image}}')"></div>
       {% else %}
-        <img src={{project.image}} alt="shows a screenshot of the project">
+        <div class="img-container">currently no screenshot available</div>
       {% endif %}
       <p>{{project.description}}</p>
       <div class="project-links">
