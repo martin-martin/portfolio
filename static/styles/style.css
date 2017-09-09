@@ -4,6 +4,10 @@ body {
   color: #303030;
 }
 
+.logo {
+  font-size: 30em;
+}
+
 .portfolio {
   display: flex;
   justify-content: space-around;
