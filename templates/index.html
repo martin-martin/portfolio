@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="logo">
-    <!-- TODO: link M elements to different website parts -->
-    <span class="highlight-green">|</span><span class="highlight-orange">\/</span><span class="highlight-blue">|</span>
+    <!-- TODO: set up linking with clean .js, avoiding inline code -->
+    <span class="highlight-green"
+          onclick="javascript:location.href='mailto:breuss.martin@gmail.com'">|</span><span class="highlight-orange"
+          onclick="javascript:location.href='{{ url_for('portfolio') }}'">\/</span><span class="highlight-blue"
+          onclick="javascript:location.href='http://www.xyayz.com'">|</span>
   </div>
   <p>This is my official site! I can be professional.</p>
   <div class="button-row">
