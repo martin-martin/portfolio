@@ -6,9 +6,15 @@
   </div>
   <p>This is my official site! I can be professional.</p>
   <div class="button-row">
-    <button class="highlight-green">contact me</button>
-    <button class="highlight-orange">portfolio</button>
-    <button class="highlight-blue">plunge on in</button>
+    <button class="highlight-green">
+      <a href="mailto:breuss.martin@gmail.com">contact me</a>
+    </button>
+    <button class="highlight-orange">
+      <a href="{{ url_for('portfolio') }}">portfolio</a>
+    </button>
+    <button class="highlight-blue">
+      <a href="http://www.xyayz.com">plunge on in</a>
+    </button>
   </div>
   <!-- TODO: add contact info, link to fun website, link to portfolio -->
 {% endblock %}
