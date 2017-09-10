@@ -57,7 +57,8 @@ button a {
   padding: 20px;
   border: 3px solid #303030;
   border-radius: 20px;
-  background-color: white;
+  color: #fdfdfd;
+  background-color: #303030;
 }
 
 .project-links {
