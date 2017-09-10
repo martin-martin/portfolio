@@ -12,8 +12,8 @@ body {
 
 /* create color-hover-effect for M logo and buttons */
 .highlight-orange:hover {
-  color: orange;
-  border-color: orange;
+  color: #ffa000;
+  border-color: #ffa000;
 }
 
 .highlight-green:hover {
@@ -55,13 +55,28 @@ button a {
 .project {
   margin: 20px;
   padding: 20px;
-  background-color: #ccc;
+  border: 3px solid #303030;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .project-links {
   display: flex;
   justify-content: space-around;
 }
+
+.project-links a {
+  color: #ffa000;
+}
+
+.project-links a:visited {
+  color: #ffc107;
+}
+
+.project-links a:hover {
+  color: #ff6f00;
+}
+
 
 /*
   restrict img to uniform size automatically,
@@ -73,6 +88,8 @@ button a {
   width: 300px;
   color: gray;
   background-position: center;
+  border: 1px solid #303030;
+  border-radius: 20px;
 }
 
 /* ---------- FOOTER ---------- */
