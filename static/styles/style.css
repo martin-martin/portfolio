@@ -4,10 +4,13 @@ body {
   color: #303030;
 }
 
+/* ---------- HOME ---------- */
+
 .logo {
   font-size: 30em;
 }
 
+/* create color-hover-effect for M logo and buttons */
 .highlight-orange:hover {
   color: orange;
   border-color: orange;
@@ -32,6 +35,8 @@ body {
   color: #303030;
   background-color: #fdfdfd;
 }
+
+/* ---------- PORTFOLIO ---------- */
 
 .portfolio {
   display: flex;
@@ -62,6 +67,7 @@ body {
   background-position: center;
 }
 
+/* ---------- FOOTER ---------- */
 footer {
   font-size: 0.6em;
   color: #303030;
