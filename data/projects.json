@@ -2,7 +2,7 @@
     {
         "name": "xyayz",
         "technologies": "React | HTML | JavaScript | CSS",
-        "image": "static/xyayz.png",
+        "image": "static/screenshots/xyayz.png",
         "description": "this is my fun website.",
         "live_link": "http://www.xyayz.com",
         "code_link": "http://github.com/xyayz",
@@ -11,7 +11,7 @@
     {
         "name": "blossomizer",
         "technologies": "HTML | JavaScript | CSS",
-        "image": "static/blossomizer.png",
+        "image": "static/screenshots/blossomizer.png",
         "description": "make crash blossoms.",
         "live_link": "https://d8z079h7ghotx.cloudfront.net/",
         "code_link": "https://github.com/martin-martin/blossomizer",
@@ -20,7 +20,7 @@
     {
         "name": "first website project",
         "technologies": "HTML | JavaScript | CSS",
-        "image": "static/ipnd.png",
+        "image": "static/screenshots/ipnd.png",
         "description": "an assembly of my learning steps and materials from a Udacity Nanodegree.",
         "live_link": "https://ipnd-all.appspot.com/",
         "code_link": "https://github.com/martin-martin/IPND_final_project"
