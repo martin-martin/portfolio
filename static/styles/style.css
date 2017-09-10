@@ -26,6 +26,14 @@ body {
   border-color: lightblue;
 }
 
+button a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 .button-row button {
   font-size: 1.1em;
   margin: 20px;
