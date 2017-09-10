@@ -59,6 +59,7 @@ button a {
   border-radius: 20px;
   color: #fdfdfd;
   background-color: #303030;
+  max-width: 300px;
 }
 
 .technologies {
