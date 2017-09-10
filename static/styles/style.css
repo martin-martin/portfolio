@@ -8,6 +8,10 @@ body {
   font-size: 30em;
 }
 
+.highlight {
+  color: orange;
+}
+
 .portfolio {
   display: flex;
   justify-content: space-around;
