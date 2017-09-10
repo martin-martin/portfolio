@@ -61,6 +61,11 @@ button a {
   background-color: #303030;
 }
 
+.technologies {
+  font-size: 0.9em;
+  color: inherit;
+}
+
 .project-links {
   display: flex;
   justify-content: space-around;

@@ -1,6 +1,7 @@
 [
     {
         "name": "xyayz",
+        "technologies": "React | HTML | JavaScript | CSS",
         "image": "static/xyayz.png",
         "description": "this is my fun website.",
         "live_link": "http://www.xyayz.com",
@@ -9,6 +10,7 @@
     },
     {
         "name": "blossomizer",
+        "technologies": "HTML | JavaScript | CSS",
         "image": "static/blossomizer.png",
         "description": "make crash blossoms.",
         "live_link": "https://d8z079h7ghotx.cloudfront.net/",
@@ -16,9 +18,11 @@
         "info_link": "https://medium.com/@martin.breuss/2-blossombuilder-e8304843a7f9"
     },
     {
-        "name": "draft",
-        "image": "",
-        "description": "in the works",
-        "code_link": "https://github.com/martin-martin/blossomizer"
+        "name": "first website project",
+        "technologies": "HTML | JavaScript | CSS",
+        "image": "static/ipnd.png",
+        "description": "an assembly of my learning steps and materials from a Udacity Nanodegree.",
+        "live_link": "https://ipnd-all.appspot.com/",
+        "code_link": "https://github.com/martin-martin/IPND_final_project"
     }
 ]
