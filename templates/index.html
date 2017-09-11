@@ -6,18 +6,22 @@
           onclick="javascript:location.href='mailto:breuss.martin@gmail.com'">|</span><span class="highlight-orange"
           onclick="javascript:location.href='{{ url_for('portfolio') }}'">\/</span><span class="highlight-blue"
           onclick="javascript:location.href='http://www.xyayz.com'">|</span>
+    <!-- TODO: animate click events:
+                1. contact transforms to a "!"
+                2. portfolio moves the M arrow downwards
+                3. xyayz jumps up and dives down -->
   </div>
-  <p>This is my official site! I can be professional.</p>
-  <div class="button-row">
-    <button class="highlight-green">
+  <p>I like building pages on the web, do data analyses and create visualizations, as well as all things A.I.</p>
+  <p>If you want to tell me something, or think that I should work for you, just send me an email. :)</p>
+  <div class="button-row-main">
+    <button class="nav-button highlight-green">
       <a href="mailto:breuss.martin@gmail.com">contact me</a>
     </button>
-    <button class="highlight-orange">
+    <button class="nav-button highlight-orange">
       <a href="{{ url_for('portfolio') }}">portfolio</a>
     </button>
-    <button class="highlight-blue">
-      <a href="http://www.xyayz.com" target="_blank">plunge on in</a>
+    <button class="nav-button highlight-blue">
+      <a href="http://www.xyayz.com" target="_blank">more stuff</a>
     </button>
   </div>
-  <!-- TODO: add contact info, link to fun website, link to portfolio -->
 {% endblock %}

@@ -1,4 +1,7 @@
+/* TODO: make page responsive */
+
 body {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   background-color: #fdfdfd;
   color: #303030;
@@ -34,7 +37,7 @@ button a {
   color: inherit;
 }
 
-.button-row button {
+.nav-button {
   font-size: 1.1em;
   margin: 20px;
   padding: 10px;
@@ -84,6 +87,16 @@ button a {
   color: #ff6f00;
 }
 
+.button-row-portfolio {
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  bottom: 5px;
+}
+
+.button-row-portfolio .nav-button {
+  opacity: 0.8;
+}
 
 /*
   restrict img to uniform size automatically,
@@ -100,6 +113,7 @@ button a {
 }
 
 /* ---------- FOOTER ---------- */
+
 footer {
   font-size: 0.6em;
   color: #303030;
@@ -109,4 +123,9 @@ footer {
   height: 20px;
   width: auto;
   padding: 8px;
+}
+
+.overflow {
+  color: #fdfdfd;
+  font-size: 2.5em;
 }

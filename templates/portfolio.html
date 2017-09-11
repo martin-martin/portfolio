@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
   <h1>{{title}}</h1>
-  <p>I like to make things</p>
+  <p>I really like to make things</p>
   <div class="portfolio">
     <!-- render each project including name, screenshot, description,
         and available links (live project, code, and related blog post) -->
@@ -35,15 +35,15 @@
     </div>
     {% endfor %}
   </div>
-  <div class="button-row">
-    <button class="highlight-green">
+  <div class="button-row-portfolio">
+    <button class="nav-button highlight-green">
       <a href="mailto:breuss.martin@gmail.com">contact me</a>
     </button>
-    <button class="highlight-orange">
+    <button class="nav-button highlight-orange">
       <a href="{{ url_for('home') }}">return home</a>
     </button>
-    <button class="highlight-blue">
-      <a href="http://www.xyayz.com" target="_blank">look for fun</a>
+    <button class="nav-button highlight-blue">
+      <a href="http://www.xyayz.com" target="_blank">otherthings</a>
     </button>
   </div>
 {% endblock %}
