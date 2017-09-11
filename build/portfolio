@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href= "/static/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <title>mb/portfolio</title>
+</head>
+<body>
+  
+  <h1>portfolio</h1>
+  <p>I really like to make things</p>
+  <div class="portfolio">
+    <!-- render each project including name, screenshot, description,
+        and available links (live project, code, and related blog post) -->
+    
+    <div class="project">
+      <h2>xyayz</h2>
+      <p class="technologies">React | HTML | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=http://www.xyayz.com target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/xyayz.png')"></div>
+        </a>
+      
+      <p>this is going to be my fun website with lots of nooks and crannies and stuff to discover :) - currently under heavy construction efforts.</p>
+      <div class="project-links">
+        
+          <a href=http://www.xyayz.com target="_blank">live version</a>
+        
+        
+          <a href=http://github.com/xyayz target="_blank">code</a>
+        
+        
+          <a href=http://medium.com target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>sealed cities</h2>
+      <p class="technologies">d3 | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=http://www.datamat.in/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/sealed.png')"></div>
+        </a>
+      
+      <p>an interactive map with information on soil sealing in European cities. and colors.</p>
+      <div class="project-links">
+        
+          <a href=http://www.datamat.in/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/sealed_cities target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/sealed_cities/blob/master/README.md target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>portfolio inception</h2>
+      <p class="technologies">Flask | CSS | JavaScript</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=http://www.martinbreuss.com/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/portfolio.png')"></div>
+        </a>
+      
+      <p>this page. click for a secret link to the front page.</p>
+      <div class="project-links">
+        
+          <a href=http://www.martinbreuss.com/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/portfolio target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>pokéblog</h2>
+      <p class="technologies">React | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/pokeblog.png')"></div>
+      
+      <p>a travel blog for great adventures of little people in a big world.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/react_pokeblog target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>bookshelf</h2>
+      <p class="technologies">React | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/bookshelf.png')"></div>
+      
+      <p>an overpowered list of books.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/react-bookshelf target="_blank">code</a>
+        
+        
+          <a href=https://github.com/udacity/reactnd-project-myreads-starter target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>100 blocks a day</h2>
+      <p class="technologies">JavaScript | HTML | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/100blocks.png')"></div>
+      
+      <p>a JS tool to visually structure your day (for more happiness and productivity)</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/100_blocks_a_day target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>my MOOCs</h2>
+      <p class="technologies">HTML | Python | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/my-moocs/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/moocs.png')"></div>
+        </a>
+      
+      <p>an attempt to assemble all the online courses I did from 2014-2015. in color.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/my-moocs/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/my-moocs target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>topology math</h2>
+      <p class="technologies">Python</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/topology.png')"></div>
+      
+      <p>retracing basic GIS topology operations by myself in Python. maybe making modules.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/topology_math target="_blank">code</a>
+        
+        
+          <a href=https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/an-overview-of-the-surface-tools.htm target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>keno page</h2>
+      <p class="technologies">Bootstrap | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/keno/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/keno.png')"></div>
+        </a>
+      
+      <p>a mini tribute to Keno Don Rosa.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/keno/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/keno target="_blank">code</a>
+        
+        
+          <a href=https://en.wikipedia.org/wiki/Don_Rosa target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>satellheights</h2>
+      <p class="technologies">d3 | JavaScript</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/satellheights/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/satellheights.png')"></div>
+        </a>
+      
+      <p>visually comparing the distance between normal and GPS satellites.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/satellheights/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/satellheights/tree/master target="_blank">code</a>
+        
+        
+          <a href=http://www.gps.gov/systems/gps/space/ target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>clean up game</h2>
+      <p class="technologies">Python | JavaScript</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/cleanup.png')"></div>
+      
+      <p>messy computer paints some squares, human has to walk over them to discolor them again.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/clean_up/blob/master/clean_up.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/clean_up target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>blossomizer</h2>
+      <p class="technologies">HTML | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://d8z079h7ghotx.cloudfront.net/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/blossomizer.png')"></div>
+        </a>
+      
+      <p>insert two nouns to create a &#39;crash blossom&#39; - playing with a specialty of the English language.</p>
+      <div class="project-links">
+        
+          <a href=https://d8z079h7ghotx.cloudfront.net/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/blossomizer target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/2-blossombuilder-e8304843a7f9 target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>unconditional speeches</h2>
+      <p class="technologies">Python | NLTK</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://dsjvkmk8ze06t.cloudfront.net/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/speeches.png')"></div>
+        </a>
+      
+      <p>code that weeds through speeches, taking out everything except nouns and verbs.</p>
+      <div class="project-links">
+        
+          <a href=https://dsjvkmk8ze06t.cloudfront.net/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/unconditional_speeches target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/4-pos-deletion-7be02b590c74 target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>stanford events scraper</h2>
+      <p class="technologies">Python</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/scrapeford.png')"></div>
+      
+      <p>Automatically sift through the great daily events at Stanford University to find free AI and ML related on-campus lectures.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/scrapeford_events/blob/master/scrapeford_ml.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/scrapeford_events target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>define love</h2>
+      <p class="technologies">Python | Pearson API</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/love.png')"></div>
+      
+      <p>querying the Pearson API for word information.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/define/blob/master/define_me.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/define target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>cloud lemmatize</h2>
+      <p class="technologies">Python | meaningcloud API</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/lemmas_pos target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/cloud.png')"></div>
+        </a>
+      
+      <p>using a pipeline and an API to find POS and lemmas for a ton of words in some languages.</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/lemmas_pos target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/cloud_lemmatize target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>baseword frequency lists</h2>
+      <p class="technologies">Python</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/bw_frequency_lists/tree/master target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/bw_freq.png')"></div>
+        </a>
+      
+      <p>generated baseword-frequency lists for DE, EN, ES and FR.</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/bw_frequency_lists/tree/master target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/lemma_getta target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>lemma frequencies</h2>
+      <p class="technologies">Python | RegExp | xml.etree</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/lemma_freq target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/lemma.png')"></div>
+        </a>
+      
+      <p>create lemma-frequency lists from largely spoken-word corpora (OPUS).</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/lemma_freq target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/lemma_freq/blob/master/frequencify.py target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>hidden coding</h2>
+      <p class="technologies">HTML | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/non-obvious/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/nobvious.png')"></div>
+        </a>
+      
+      <p>sometimes you code all day but there&#39;s nothing to show for it. a little diary.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/non-obvious/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/non-obvious target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>scrape song info</h2>
+      <p class="technologies">Ruby | Nokogiri | Python | BeautifulSoup | RegExp</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/genius.png')"></div>
+      
+      <p>Ruby and Python code to fetch song info from genius.com</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/scrape_it_ch_an_son/tree/master target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>scrape definitions</h2>
+      <p class="technologies">Ruby | Nokogiri | Python | BeautifulSoup | RegExp</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/wordscrape.png')"></div>
+      
+      <p>Ruby and Python code that can be included in a webapp to fetch the definitions of a word from wordreference.com</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/scrape_definitions target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>hidden wishes</h2>
+      <p class="technologies">Python | NLTK | RegExp</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/bday.png')"></div>
+      
+      <p>munged through novels to see whether they wish me a happy birthday!</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/hidden_wishes/blob/master/hidden_wishes.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/hidden_wishes target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>game of vectors</h2>
+      <p class="technologies">Python | NLTK | word2vec | sklearn</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/game_of_vectors/blob/master/GameOfVectors.ipynb target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/game.png')"></div>
+        </a>
+      
+      <p>wordclouds from such things: &#39;Their droppings speckled the gargoyles that rose twelve feet tall on either side of him [...]&#39;&#39;</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/game_of_vectors/blob/master/GameOfVectors.ipynb target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/game_of_vectors target="_blank">code</a>
+        
+        
+          <a href=https://github.com/YuriyGuts/thrones2vec target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>tiny flowing tensors</h2>
+      <p class="technologies">Python</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/miniflow.png')"></div>
+      
+      <p>implementing a small version of TensorFlow with the help of Udacity, to better understand backpropagation and differentiable graphs.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/MiniFlow/blob/master/MiniFlow.ipynb target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>brain body</h2>
+      <p class="technologies">Python | sklearn</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/brain_body/blob/master/BrainBody.ipynb target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/brainbody.png')"></div>
+        </a>
+      
+      <p>predicting an animals body weight from the weight of its brain.</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/brain_body/blob/master/BrainBody.ipynb target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/brain_body target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>word frequenctrees</h2>
+      <p class="technologies">JavaScript</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/freqenctree/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/frequenctree.png')"></div>
+        </a>
+      
+      <p>input some text and get a word frequency analysis wiht a pretty image.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/freqenctree/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/freqenctree target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/3-word-frequenctrees-fec2684c217a target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>flight oracle</h2>
+      <p class="technologies">Python | NLTK</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/flight_oracle/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/oracle.png')"></div>
+        </a>
+      
+      <p>creating meaningless graphs that look meaningful while waiting for a plane.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/flight_oracle/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/flight_oracle target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/fake-data-science-8a057efb61ed target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>sentence snowflakes</h2>
+      <p class="technologies">Python | NLTK</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/doubles.png')"></div>
+      
+      <p>what we speak is surprisingly unique. a hommage to language creativity.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/sentence_doubles target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/7-language-creativity-defe56084896 target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>engine search</h2>
+      <p class="technologies">Python | Tkinter</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/engine.png')"></div>
+      
+      <p>finally a way to find lost engines! now with a GUI. (a minimal search engine)</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/engine_search target="_blank">code</a>
+        
+        
+          <a href=https://medium.com/@martin.breuss/going-gui-48a61d9db91c target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>Don sí</h2>
+      <p class="technologies">Python | NLTK</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/don_si/blob/master/El_Don.ipynb target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/donsi.png')"></div>
+        </a>
+      
+      <p>analyzing a free-form literary corpus (call it a novel) for word frequencies.</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/don_si/blob/master/El_Don.ipynb target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/don_si/blob/master/El_Don.py target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>painting lane lines</h2>
+      <p class="technologies">Python | OpenCV</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://github.com/martin-martin/finding_lane_lines/blob/master/P1-submit.ipynb target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/lanes.png')"></div>
+        </a>
+      
+      <p>recognizing lane lines in images and videos. painting lines everywhere.</p>
+      <div class="project-links">
+        
+          <a href=https://github.com/martin-martin/finding_lane_lines/blob/master/P1-submit.ipynb target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/finding_lane_lines target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>Evil Corp analysis</h2>
+      <p class="technologies">Python | sklearn</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=http://martin-martin.github.io/smartest_algorithm/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/enron.png')"></div>
+        </a>
+      
+      <p>using machine learning to identify persons of interest that might be involved in the Enron fraud case.</p>
+      <div class="project-links">
+        
+          <a href=http://martin-martin.github.io/smartest_algorithm/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/smartest_algorithm/blob/master/poi_id.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/smartest_algorithm/blob/master/README.md target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>presidential dollars</h2>
+      <p class="technologies">R</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=http://martin-martin.github.io/presidential_dollars/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/presidential.png')"></div>
+        </a>
+      
+      <p>analyzing the individual contributions to the US presidential elections and playing with ggplot2, the implementation of the poetic &#39;Grammar of Graphics&#39;.</p>
+      <div class="project-links">
+        
+          <a href=http://martin-martin.github.io/presidential_dollars/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/presidential_dollars target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>did Jack Dawson die in vain?</h2>
+      <p class="technologies">Python | pandas | numpy | matplotlib</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/titanic.png')"></div>
+      
+      <p>analyzing the Titanic dataset for factors influencing survival (a.k.a. double-checking the accuracy of the movie).</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/titanic_analysis target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/titanic_analysis/blob/master/titanic_analysis.ipynb target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>cleaning Las Vegas</h2>
+      <p class="technologies">Python | XML | OSM</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <div class="img-container" style="background-image: url('static/screenshots/lasvegas.png')"></div>
+      
+      <p>investigating and improving the OpenStreetMap data on Las Vegas.</p>
+      <div class="project-links">
+        
+        
+          <a href=https://github.com/martin-martin/cleaning-las-vegas/blob/master/LV_all_code.py target="_blank">code</a>
+        
+        
+          <a href=https://github.com/martin-martin/cleaning-las-vegas/blob/master/las_vegas_summary.ipynb target="_blank">more info</a>
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>LESS</h2>
+      <p class="technologies">Balsamiq | Ninjamock | HTML</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/less_landing/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/less.png')"></div>
+        </a>
+      
+      <p>a mock landing page for a fictional app that I seriously lived and developed.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/less_landing/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/less_landing target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>early resume</h2>
+      <p class="technologies">HTML | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://martin-martin.github.io/FEND_resume/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/resume.png')"></div>
+        </a>
+      
+      <p>an early try of making an online resume.</p>
+      <div class="project-links">
+        
+          <a href=https://martin-martin.github.io/FEND_resume/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/FEND_resume target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>polling for color</h2>
+      <p class="technologies">Google App Engine | HTML | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://stage-4-996.appspot.com/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/stage4.png')"></div>
+        </a>
+      
+      <p>a practice on persistent data storage on GAE, spiced up with text emojis and rainbows. my favorite one is  ¯\_(ツ)_/¯</p>
+      <div class="project-links">
+        
+          <a href=https://stage-4-996.appspot.com/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/IPND_Stage-4 target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="project">
+      <h2>first website project</h2>
+      <p class="technologies">Google App Engine | HTML | JavaScript | CSS</p>
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      
+        <a href=https://ipnd-all.appspot.com/ target="_blank">
+          <div class="img-container" style="background-image: url('static/screenshots/ipnd.png')"></div>
+        </a>
+      
+      <p>an assembly of my learning steps and materials from a Udacity Nanodegree.</p>
+      <div class="project-links">
+        
+          <a href=https://ipnd-all.appspot.com/ target="_blank">live version</a>
+        
+        
+          <a href=https://github.com/martin-martin/IPND_final_project target="_blank">code</a>
+        
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="button-row-portfolio">
+    <button class="nav-button highlight-green">
+      <a href="mailto:breuss.martin@gmail.com">contact me</a>
+    </button>
+    <button class="nav-button highlight-orange">
+      <a href="/index">return home</a>
+    </button>
+    <button class="nav-button highlight-blue">
+      <a href="http://www.xyayz.com" target="_blank">otherthings</a>
+    </button>
+  </div>
+
+  <footer>
+    <div class="contact-links">
+      <!-- thanks to http://www.entypo.com/ -->
+      <a href="https://github.com/martin-martin/" target="_blank"><img class="icon" src="static/icons/github.svg"></a>
+      <a href="https://www.linkedin.com/in/martinbreuss/" target="_blank"><img class="icon" src="static/icons/linkedin.svg"></a>
+      <a href="https://plus.google.com/u/0/+MartinBreuss-martin-martin" target="_blank"><img class="icon" src="static/icons/google+.svg"></a>
+      <a href="https://stackoverflow.com/users/5717580/martin-martin" target="_blank"><img class="icon" src="static/icons/stackoverflow.svg"></a>
+      <a href="https://medium.com/@martin.breuss" target="_blank"><img class="icon" src="static/icons/medium.svg"></a>
+      <a href="https://mobile.twitter.com/martinbreuss" target="_blank"><img class="icon" src="static/icons/twitter.svg"></a>
+    </div>
+    <p class="watersign">martinmade 2017</p>
+  </footer>
+  <div class="overflow">pst... this is a secret. :)</div>
+</body>
+</html>
