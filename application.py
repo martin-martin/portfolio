@@ -1,15 +1,15 @@
 import json
 from flask import Flask, render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/')
-@app.route('/index')
+@application.route('/')
+@application.route('/index')
 def home():
     return render_template('index.html',
                             title='home')
 
-@app.route('/portfolio')
+@application.route('/portfolio')
 def portfolio():
     with open('data/projects.json', 'r') as f:
         projects = json.load(f)
@@ -18,4 +18,4 @@ def portfolio():
                             projects=projects)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    application.run(debug=True)
