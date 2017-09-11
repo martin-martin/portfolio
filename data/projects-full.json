@@ -9,15 +9,6 @@
         "info_link": "http://medium.com"
     },
     {
-        "name": "sealed cities",
-        "technologies": "d3 | JavaScript | CSS",
-        "image": "static/screenshots/sealed.png",
-        "description": "an interactive map with information on soil sealing in European cities. and colors.",
-        "live_link": "http://www.datamat.in/",
-        "code_link": "https://github.com/martin-martin/sealed_cities",
-        "info_link": "https://github.com/martin-martin/sealed_cities/blob/master/README.md"
-    },
-    {
         "name": "portfolio inception",
         "technologies": "Flask | CSS | JavaScript",
         "image": "static/screenshots/portfolio.png",
@@ -45,24 +36,6 @@
         "info_link": "https://github.com/udacity/reactnd-project-myreads-starter"
     },
     {
-        "name": "100 blocks a day",
-        "technologies": "JavaScript | HTML | CSS",
-        "image": "static/screenshots/100blocks.png",
-        "description": "a JS tool to visually structure your day (for more happiness and productivity)",
-        "live_link": "",
-        "code_link": "https://github.com/martin-martin/100_blocks_a_day",
-        "info_link": ""
-    },
-    {
-        "name": "my MOOCs",
-        "technologies": "HTML | Python | CSS",
-        "image": "static/screenshots/moocs.png",
-        "description": "an attempt to assemble all the online courses I did from 2014-2015. in color.",
-        "live_link": "https://martin-martin.github.io/my-moocs/",
-        "code_link": "https://github.com/martin-martin/my-moocs",
-        "info_link": ""
-    },
-    {
         "name": "topology math",
         "technologies": "Python",
         "image": "static/screenshots/topology.png",
@@ -70,6 +43,15 @@
         "live_link": "",
         "code_link": "https://github.com/martin-martin/topology_math",
         "info_link": "https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/an-overview-of-the-surface-tools.htm"
+    },
+    {
+        "name": "sealed cities",
+        "technologies": "d3 | JavaScript | CSS",
+        "image": "static/screenshots/sealed.png",
+        "description": "an interactive map with information on soil sealing in European cities. and colors.",
+        "live_link": "http://www.datamat.in/",
+        "code_link": "https://github.com/martin-martin/sealed_cities",
+        "info_link": "https://github.com/martin-martin/sealed_cities/blob/master/README.md"
     },
     {
         "name": "keno page",
@@ -88,6 +70,15 @@
         "live_link": "https://martin-martin.github.io/satellheights/",
         "code_link": "https://github.com/martin-martin/satellheights/tree/master",
         "info_link": "http://www.gps.gov/systems/gps/space/"
+    },
+    {
+        "name": "estimating triangles",
+        "technologies": "Python",
+        "image": "static/screenshots/polygon.png",
+        "description": "idea to visually model an algorithm to create triangles for Thiessen polygons.",
+        "live_link": "",
+        "code_link": "",
+        "info_link": "https://github.com/martin-martin/estimating_triangles"
     },
     {
         "name": "clean up game",
@@ -117,15 +108,6 @@
         "info_link": "https://medium.com/@martin.breuss/4-pos-deletion-7be02b590c74"
     },
     {
-        "name": "stanford events scraper",
-        "technologies": "Python",
-        "image": "static/screenshots/scrapeford.png",
-        "description": "Automatically sift through the great daily events at Stanford University to find free AI and ML related on-campus lectures.",
-        "live_link": "",
-        "code_link": "https://github.com/martin-martin/scrapeford_events/blob/master/scrapeford_ml.py",
-        "info_link": "https://github.com/martin-martin/scrapeford_events"
-    },
-    {
         "name": "define love",
         "technologies": "Python | Pearson API",
         "image": "static/screenshots/love.png",
@@ -135,6 +117,15 @@
         "info_link": "https://github.com/martin-martin/define"
     },
     {
+        "name": "100 blocks a day",
+        "technologies": "JavaScript | HTML | CSS",
+        "image": "static/screenshots/100blocks.png",
+        "description": "a JS tool to visually structure your day (for more happiness and productivity)",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/100_blocks_a_day",
+        "info_link": ""
+    },
+    {
         "name": "cloud lemmatize",
         "technologies": "Python | meaningcloud API",
         "image": "static/screenshots/cloud.png",
@@ -142,6 +133,15 @@
         "live_link": "https://github.com/martin-martin/lemmas_pos",
         "code_link": "https://github.com/martin-martin/cloud_lemmatize",
         "info_link": ""
+    },
+    {
+        "name": "stanford events scraper",
+        "technologies": "Python",
+        "image": "static/screenshots/scrapeford.png",
+        "description": "Automatically sift through the great daily events at Stanford University to find free AI and ML related on-campus lectures.",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/scrapeford_events/blob/master/scrapeford_ml.py",
+        "info_link": "https://github.com/martin-martin/scrapeford_events"
     },
     {
         "name": "baseword frequency lists",
@@ -225,6 +225,15 @@
         "info_link": ""
     },
     {
+        "name": "lyric search",
+        "technologies": "Python | NLTK | RegExp",
+        "image": "static/screenshots/lyricsearch.png",
+        "description": "check whether a word appears in song lyrics and print the corresponding lines.",
+        "live_link": "https://github.com/martin-martin/search_lyrics/blob/master/the_search.ipynb",
+        "code_link": "https://github.com/martin-martin/search_lyrics",
+        "info_link": ""
+    },
+    {
         "name": "word frequenctrees",
         "technologies": "JavaScript",
         "image": "static/screenshots/frequenctree.png",
@@ -261,6 +270,33 @@
         "info_link": "https://medium.com/@martin.breuss/going-gui-48a61d9db91c"
     },
     {
+        "name": "berryfinder",
+        "technologies": "Python | OpenCV",
+        "image": "static/screenshots/berry.png",
+        "description": "code-along to identify strawberries in images.",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/find_a_berry",
+        "info_link": "https://www.youtube.com/watch?v=OnWIYI6-4Ss"
+    },
+    {
+        "name": "Android sing le page",
+        "technologies": "Java",
+        "image": "static/screenshots/golden.png",
+        "description": "participating in an Android Beginner course, I built a static single-page app.",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/app_mockup",
+        "info_link": "https://discussions.udacity.com/t/how-my-app-turned-out-in-shades-of-yellow-using-a-svg-no-actionbar-and-material-design-colors/210002"
+    },
+    {
+        "name": "microblog",
+        "technologies": "Ruby | Rails",
+        "image": "static/screenshots/railsblog.png",
+        "description": "a rails practice.",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/toying",
+        "info_link": ""
+    },
+    {
         "name": "Don sí",
         "technologies": "Python | NLTK",
         "image": "static/screenshots/donsi.png",
@@ -270,12 +306,39 @@
         "info_link": ""
     },
     {
+        "name": "my MOOCs",
+        "technologies": "HTML | Python | CSS",
+        "image": "static/screenshots/moocs.png",
+        "description": "an attempt to assemble all the online courses I did from 2014-2015. in color.",
+        "live_link": "https://martin-martin.github.io/my-moocs/",
+        "code_link": "https://github.com/martin-martin/my-moocs",
+        "info_link": ""
+    },
+    {
+        "name": "word frequencies",
+        "technologies": "Python | RegExp",
+        "image": "static/screenshots/words.png",
+        "description": "a tool to see which words in a given text are frequent words in that language.",
+        "live_link": "https://github.com/martin-martin/word_frequencies/blob/master/word_frequencies.ipynb",
+        "code_link": "https://github.com/martin-martin/word_frequencies",
+        "info_link": ""
+    },
+    {
         "name": "painting lane lines",
         "technologies": "Python | OpenCV",
         "image": "static/screenshots/lanes.png",
         "description": "recognizing lane lines in images and videos. painting lines everywhere.",
         "live_link": "https://github.com/martin-martin/finding_lane_lines/blob/master/P1-submit.ipynb",
         "code_link": "https://github.com/martin-martin/finding_lane_lines",
+        "info_link": ""
+    },
+    {
+        "name": "LESS",
+        "technologies": "Balsamiq | Ninjamock | HTML",
+        "image": "static/screenshots/less.png",
+        "description": "a mock landing page for a fictional app that I seriously lived and developed.",
+        "live_link": "https://martin-martin.github.io/less_landing/",
+        "code_link": "https://github.com/martin-martin/less_landing",
         "info_link": ""
     },
     {
@@ -306,24 +369,6 @@
         "info_link": "https://github.com/martin-martin/titanic_analysis/blob/master/titanic_analysis.ipynb"
     },
     {
-        "name": "cleaning Las Vegas",
-        "technologies": "Python | XML | OSM",
-        "image": "static/screenshots/lasvegas.png",
-        "description": "investigating and improving the OpenStreetMap data on Las Vegas.",
-        "live_link": "",
-        "code_link": "https://github.com/martin-martin/cleaning-las-vegas/blob/master/LV_all_code.py",
-        "info_link": "https://github.com/martin-martin/cleaning-las-vegas/blob/master/las_vegas_summary.ipynb"
-    },
-    {
-        "name": "LESS",
-        "technologies": "Balsamiq | Ninjamock | HTML",
-        "image": "static/screenshots/less.png",
-        "description": "a mock landing page for a fictional app that I seriously lived and developed.",
-        "live_link": "https://martin-martin.github.io/less_landing/",
-        "code_link": "https://github.com/martin-martin/less_landing",
-        "info_link": ""
-    },
-    {
         "name": "early resume",
         "technologies": "HTML | JavaScript | CSS",
         "image": "static/screenshots/resume.png",
@@ -331,6 +376,24 @@
         "live_link": "https://martin-martin.github.io/FEND_resume/",
         "code_link": "https://github.com/martin-martin/FEND_resume",
         "info_link": ""
+    },
+    {
+        "name": "bootstries",
+        "technologies": "Bootstrap",
+        "image": "static/screenshots/bootstry.png",
+        "description": "a simple play-around practice for learning bootstrap.",
+        "live_link": "https://martin-martin.github.io/hello_boost/",
+        "code_link": "https://github.com/martin-martin/hello_boost",
+        "info_link": ""
+    },
+    {
+        "name": "cleaning Las Vegas",
+        "technologies": "Python | XML | OSM",
+        "image": "static/screenshots/lasvegas.png",
+        "description": "investigating and improving the OpenStreetMap data on Las Vegas.",
+        "live_link": "",
+        "code_link": "https://github.com/martin-martin/cleaning-las-vegas/blob/master/LV_all_code.py",
+        "info_link": "https://github.com/martin-martin/cleaning-las-vegas/blob/master/las_vegas_summary.ipynb"
     },
     {
         "name": "polling for color",
