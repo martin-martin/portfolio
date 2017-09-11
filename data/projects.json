@@ -9,49 +9,58 @@
         "info_link": "http://medium.com"
     },
     {
-        "name": "blossomizer",
-        "technologies": "HTML | JavaScript | CSS",
-        "image": "static/screenshots/blossomizer.png",
-        "description": "insert two nouns to create a 'crash blossom' - playing with a specialty of the English language.",
-        "live_link": "https://d8z079h7ghotx.cloudfront.net/",
-        "code_link": "https://github.com/martin-martin/blossomizer",
-        "info_link": "https://medium.com/@martin.breuss/2-blossombuilder-e8304843a7f9"
-    },
-    {
-        "name": "",
-        "technologies": "",
-        "image": "static/screenshots/.png",
-        "description": "",
-        "live_link": "",
-        "code_link": "",
+        "name": "portfolio inception",
+        "technologies": "Flask | CSS | JavaScript",
+        "image": "static/screenshots/portfolio.png",
+        "description": "this page. click for a secret link to the front page.",
+        "live_link": "http://www.martinbreuss.com/",
+        "code_link": "https://github.com/martin-martin/portfolio",
         "info_link": ""
     },
     {
-        "name": "",
-        "technologies": "",
-        "image": "static/screenshots/.png",
-        "description": "",
+        "name": "pokéblog",
+        "technologies": "React | CSS",
+        "image": "static/screenshots/pokeblog.png",
+        "description": "a travel blog for great adventures of little people in a big world.",
         "live_link": "",
-        "code_link": "",
+        "code_link": "https://github.com/martin-martin/react_pokeblog",
         "info_link": ""
     },
     {
-        "name": "",
-        "technologies": "",
-        "image": "static/screenshots/.png",
-        "description": "",
+        "name": "bookshelf",
+        "technologies": "React | CSS",
+        "image": "static/screenshots/bookshelf.png",
+        "description": "an overpowered list of books.",
         "live_link": "",
-        "code_link": "",
-        "info_link": ""
+        "code_link": "https://github.com/martin-martin/react-bookshelf",
+        "info_link": "https://github.com/udacity/reactnd-project-myreads-starter"
     },
     {
-        "name": "",
-        "technologies": "",
-        "image": "static/screenshots/.png",
-        "description": "",
+        "name": "topology math",
+        "technologies": "Python",
+        "image": "static/screenshots/topology.png",
+        "description": "retracing basic GIS topology operations by myself in Python. maybe making modules.",
         "live_link": "",
-        "code_link": "",
-        "info_link": ""
+        "code_link": "https://github.com/martin-martin/topology_math",
+        "info_link": "https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/an-overview-of-the-surface-tools.htm"
+    },
+    {
+        "name": "sealed cities",
+        "technologies": "d3 | JavaScript | CSS",
+        "image": "static/screenshots/sealed.png",
+        "description": "an interactive map with information on soil sealing in European cities. and colors.",
+        "live_link": "http://www.datamat.in/",
+        "code_link": "https://github.com/martin-martin/sealed_cities",
+        "info_link": "https://github.com/martin-martin/sealed_cities/blob/master/README.md"
+    },
+    {
+        "name": "keno page",
+        "technologies": "Bootstrap | CSS",
+        "image": "static/screenshots/keno.png",
+        "description": "a mini tribute to Keno Don Rosa.",
+        "live_link": "https://martin-martin.github.io/keno/",
+        "code_link": "https://github.com/martin-martin/keno",
+        "info_link": "https://en.wikipedia.org/wiki/Don_Rosa"
     },
     {
         "name": "satellheights",
@@ -79,6 +88,15 @@
         "live_link": "",
         "code_link": "https://github.com/martin-martin/clean_up/blob/master/clean_up.py",
         "info_link": "https://github.com/martin-martin/clean_up"
+    },
+    {
+        "name": "blossomizer",
+        "technologies": "HTML | JavaScript | CSS",
+        "image": "static/screenshots/blossomizer.png",
+        "description": "insert two nouns to create a 'crash blossom' - playing with a specialty of the English language.",
+        "live_link": "https://d8z079h7ghotx.cloudfront.net/",
+        "code_link": "https://github.com/martin-martin/blossomizer",
+        "info_link": "https://medium.com/@martin.breuss/2-blossombuilder-e8304843a7f9"
     },
     {
         "name": "unconditional speeches",
@@ -271,7 +289,7 @@
     },
     {
         "name": "microblog",
-        "technologies": "RoR",
+        "technologies": "Ruby | Rails",
         "image": "static/screenshots/railsblog.png",
         "description": "a rails practice.",
         "live_link": "",
