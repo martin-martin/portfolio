@@ -84,7 +84,7 @@
         "name": "satellheights",
         "technologies": "d3 | JavaScript",
         "image": "static/screenshots/satellheights.png",
-        "description": "visually comparing the distance between normal and GPS satellites.",
+        "description": "visually comparing the (astounding) distance between normal satellites and GPS satellites.",
         "live_link": "https://martin-martin.github.io/satellheights/",
         "code_link": "https://github.com/martin-martin/satellheights/tree/master",
         "info_link": "http://www.gps.gov/systems/gps/space/"
