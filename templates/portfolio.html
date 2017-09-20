@@ -35,6 +35,7 @@
     </div>
     {% endfor %}
   </div>
+  <!-- displayed on larger devices (browsers) -->
   <div class="button-row-portfolio">
     <button class="nav-button highlight-green">
       <a href="mailto:breuss.martin@gmail.com">contact me</a>
@@ -43,7 +44,19 @@
       <a href="{{ url_for('home') }}">return home</a>
     </button>
     <button class="nav-button highlight-blue">
-      <a href="http://www.xyayz.com" target="_blank">otherthings</a>
+      <a href="#">back to top</a>
+    </button>
+  </div>
+  <!-- displayed on smaller devices (mobile) -->
+  <div class="button-row-portfolio-mobile">
+    <button class="nav-mobile highlight-green">
+      <a href="mailto:breuss.martin@gmail.com"><img class="icon" src="static/icons/mail.svg"></a>
+    </button>
+    <button class="nav-mobile highlight-orange">
+      <a href="{{ url_for('home') }}"><img class="icon" src="static/icons/home.svg"></a>
+    </button>
+    <button class="nav-mobile highlight-orange">
+      <a href="#"><img class="icon" src="static/icons/top.svg"></a>
     </button>
   </div>
 {% endblock %}

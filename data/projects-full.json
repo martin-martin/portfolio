@@ -66,7 +66,7 @@
         "name": "satellheights",
         "technologies": "d3 | JavaScript",
         "image": "static/screenshots/satellheights.png",
-        "description": "visually comparing the distance between normal and GPS satellites.",
+        "description": "visually comparing the (astounding) distance between normal satellites and GPS satellites.",
         "live_link": "https://martin-martin.github.io/satellheights/",
         "code_link": "https://github.com/martin-martin/satellheights/tree/master",
         "info_link": "http://www.gps.gov/systems/gps/space/"
@@ -237,7 +237,7 @@
         "name": "word frequenctrees",
         "technologies": "JavaScript",
         "image": "static/screenshots/frequenctree.png",
-        "description": "input some text and get a word frequency analysis wiht a pretty image.",
+        "description": "input some text to get a word frequency analysis with a pretty image.",
         "live_link": "https://martin-martin.github.io/freqenctree/",
         "code_link": "https://github.com/martin-martin/freqenctree",
         "info_link": "https://medium.com/@martin.breuss/3-word-frequenctrees-fec2684c217a"
