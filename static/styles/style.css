@@ -1,5 +1,3 @@
-/* TODO: make page responsive */
-
 body {
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -45,6 +43,11 @@ button a {
   border-radius: 15px;
   color: #303030;
   background-color: #fdfdfd;
+}
+
+.button-row-mobile,
+.button-row-portfolio-mobile {
+  display: none;
 }
 
 /* ---------- PORTFOLIO ---------- */
@@ -114,6 +117,10 @@ button a {
 
 /* ---------- FOOTER ---------- */
 
+.separator {
+  display: none;
+}
+
 footer {
   font-size: 0.6em;
   color: #303030;
@@ -128,4 +135,78 @@ footer {
 .overflow {
   color: #fdfdfd;
   font-size: 2.5em;
+}
+
+/* ---------- RESPONSIVE ELEMENTS ---------- */
+
+/* TODO: remove blue highlighting when buttons are clicked */
+@media only screen and (max-width: 768px) {
+
+  .logo {
+    font-size: 14em;
+  }
+
+  .button-row-main,
+  .button-row-portfolio {
+    display: none;
+  }
+
+  .button-row-mobile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-row-portfolio-mobile {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    bottom: 5px;
+  }
+
+  .button-row-portfolio-mobile .nav-mobile {
+    opacity: 0.8;
+  }
+
+  .nav-mobile {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    border: none;
+    border-radius: 100px;
+    background-color: #fdfdfd;
+  }
+
+  .highlight-orange {
+    color: #ffa000;
+    border-color: #ffa000;
+    fill: #ffa000;
+  }
+
+  .highlight-green {
+    color: lightgreen;
+    border-color: lightgreen;
+    fill: lightgreen;
+  }
+
+  .highlight-blue {
+    color: lightblue;
+    border-color: lightblue;
+    fill: lightblue;
+  }
+
+  .separator {
+    display: block;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .icon {
+    height: 45px;
+    width: auto;
+    padding: 20px;
+  }
 }
