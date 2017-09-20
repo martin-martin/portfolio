@@ -237,7 +237,7 @@
         "name": "word frequenctrees",
         "technologies": "JavaScript",
         "image": "static/screenshots/frequenctree.png",
-        "description": "input some text and get a word frequency analysis wiht a pretty image.",
+        "description": "input some text to get a word frequency analysis with a pretty image.",
         "live_link": "https://martin-martin.github.io/freqenctree/",
         "code_link": "https://github.com/martin-martin/freqenctree",
         "info_link": "https://medium.com/@martin.breuss/3-word-frequenctrees-fec2684c217a"
